@@ -1,0 +1,100 @@
+*{
+    font-family: Montserrat, Helvetica, sans-serif;
+}
+body {
+    position: relative;
+    margin: 0;
+    padding: 0;
+}
+
+h2{
+    text-transform: capitalize;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+/* JUMBOTRON */
+.jumbotron {
+    /* background: linear-gradient(rgba(255, 255, 255, 0.7), rgba(103, 242, 255, 0.582)), url(/Images/IMG_5490.jpeg); */
+    background:  url(/Images/IMG_5490.jpeg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+    margin-top: 0px;
+    height: 1500px;
+}
+
+/* MAPINDEX */
+.mapIndex{
+    margin-top: -35px;
+    background: url(/Images/zero.png);
+    height: 110vh;
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+}
+
+/* CONTAIN */
+.contain{
+    margin-top: -35px;
+    display: flex;
+    background-color: black;
+}
+.indexrow{
+    margin: auto;
+    width: 20%;
+    margin-top: 10%;
+    margin-bottom: 10%;
+    color: white;
+}
+
+
+#email {
+    width: 300px;
+}
+
+#appSummary {
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.card-img-top {
+    width: 100%;
+}
+
+#appStoreIcon {
+    width: 200px;
+}
+
+/* ----------------------- */
+/* FOOTER */
+/* ----------------------- */
+footer{
+    color: white;
+    padding-top: 150px;
+    width: 100%;
+    text-align: center;
+}
+.footerLinks{
+    
+    /* width: 80%; */
+    /* display: flex;
+    flex-direction: row; */
+    
+}
+.bottom{
+    width: 100%;
+    padding: 10px 0;
+    margin-top: 150px;
+
+}
+.bottom a{
+
+
+}
+.bottom span{
+    color: rgb(86, 86, 86);
+}
