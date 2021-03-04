@@ -1,3 +1,6 @@
+html{
+    scroll-behavior: smooth;
+}
 *{
     font-family: Montserrat, Helvetica, sans-serif;
 }
@@ -14,6 +17,15 @@ a{
     text-decoration: none;
     color: white;
 }
+#darkMode{
+    cursor: pointer;
+}
+
+#lightMode{
+    display: none;
+    cursor: pointer;
+}
+
 /* JUMBOTRON */
 .jumbotron {
     /* background: linear-gradient(rgba(255, 255, 255, 0.7), rgba(103, 242, 255, 0.582)), url(/Images/IMG_5490.jpeg); */
@@ -24,16 +36,42 @@ a{
     text-align: center;
     margin-top: 0px;
     height: 1500px;
+    overflow: hidden;
+}
+.jumbotronTitle{
+    color: rgba(255, 255, 255, 0.9);
+    mix-blend-mode: overlay;
+    text-transform: uppercase;
+    font-size: 18rem;
+    letter-spacing: 100px;
+    font-weight: 900;
+    margin: auto;
+    text-align: center;
+}
+
+.jumboText{
+    color: white;
+    font-size: larger;
+}
+.jumboAuthor{
+    color: white;
+    font-size: large;
+    
 }
 
 /* MAPINDEX */
 .mapIndex{
     margin-top: -35px;
-    background: url(/Images/zero.png);
+    /* background: url(/Images/zero.png);
     height: 110vh;
     width: 100%;
     background-position: center;
-    background-size: cover;
+    background-size: cover; */
+    
+    width: 100%;
+}
+.mapIndex img{
+    width: 100%;
 }
 
 /* CONTAIN */
@@ -77,13 +115,8 @@ footer{
     padding-top: 150px;
     width: 100%;
     text-align: center;
-}
-.footerLinks{
-    
-    /* width: 80%; */
-    /* display: flex;
-    flex-direction: row; */
-    
+    overflow: hidden;
+    /* display: none; */
 }
 .bottom{
     width: 100%;
@@ -97,4 +130,67 @@ footer{
 }
 .bottom span{
     color: rgb(86, 86, 86);
+}
+
+@media only screen and (max-width: 1024px) {
+    .jumbotron{
+        height: 900px;
+    }
+    .jumbotronTitle{
+        font-size: 8rem;
+        letter-spacing: 30px;
+    }
+
+    .indexrow p{
+        font-size: small;
+    }
+
+    /* FOOTER */
+
+    footer{
+        padding-top: 75px;
+    }
+    .bottom{
+        margin-top: 50px;
+    }
+    
+    .footerLinks .footerColumn .col-3 p{
+        font-size: small;
+    }
+
+    .footerLinks .footerColumn .col h3{
+        font-size: medium;
+       
+    }
+    .footerLinks .footerColumn .col p{
+        font-size: smaller;
+       
+    }
+}
+
+@media only screen and (max-width: 425px) {
+    .jumbotron{
+        height: 400px;
+    }
+    .jumbotronTitle{
+        font-size: 5rem;
+    }
+    .indexrow h2{
+        font-size: small;
+    }
+    .indexrow p{
+        font-size: .1rem;
+    }
+
+    /* FOOTER */
+    footer{
+        padding-top: 50px;
+    }
+    .bottom{
+        margin-top: 35px;
+    }
+    .footerLinks .footerColumn .col-3{
+        display: none;
+        background-color: aqua;
+    }
 }

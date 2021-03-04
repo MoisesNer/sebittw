@@ -1,21 +1,38 @@
+.btnScrollTop{
+    position: fixed;
+    right: 20px;
+    bottom: 20px;
+    font-size: 4rem;
+    color: rgba(255, 255, 255, 0.7);
+    cursor: pointer;
+    box-shadow: 0 0 10px rgba(0, 0, 0, .35);
+    border-radius: 50%;
+    /* color: white; */
+
+}
 
 .subTitle{
-    color: rgba(255, 255, 255, 0.7);
+    color: rgba(255, 255, 255, 0.9);
     mix-blend-mode: overlay;
     text-transform: uppercase;
-    text-align: center;
-    font-size: 20rem;
+    font-size: 18rem;
     letter-spacing: 100px;
     font-weight: 900;
     margin: auto;
+    text-align: center;
+    
+    /* position: fixed; */
+    /* white-space: nowrap; */
+    /* transform: translateX(50%); */
 }
 
 .textHero{
     color: white;
     width: 60%;
     margin: auto;
+    padding-top: 15%;
     text-align: center;
-
+    font-size: larger;
 }
 
 .sectionOne{
@@ -39,13 +56,56 @@
 
 .sectionThree{
     display: flex;
-    /* flex-direction: column; */
+    justify-content: space-between;
+    width: 100%;
     align-items: center;
+    margin: auto;
+    /* display: none; */
 }
 
 .sectionThree img{
-
+    width: 50%;
 }
 .sectionThree p{
-    padding: 0 100px;
+    padding: 0 200px;
+    font-size: larger;
+    /* text-align: center; */
+
+}
+
+.sectionFive{
+    display: flex;
+
+}
+
+.sectionFive img{
+    width: 33.33%;
+}
+
+@media only screen and (max-width: 1024px) {
+    .subTitle{
+        margin-top: 50px;
+        font-size: 8rem;
+        letter-spacing: 30px;
+        position: static;
+        text-align: center;
+    }
+
+    .sectionThree p{
+        padding: 0 20px;
+        font-size: larger;
+        text-align: center;
+        width: 25%;
+        margin: auto;
+        font-size: medium;
+    }
+}
+@media only screen and (max-width: 425px) {
+    .subTitle{
+        font-size: 5rem;
+        letter-spacing: 10px;
+        /* font-size: small; */
+        /* position: static;
+        text-align: center; */
+    }
 }

@@ -1,27 +1,84 @@
 /* CANADA */
 
+.canadaIndex{
+    background: url(https://images.unsplash.com/photo-1544161513-0179fe746fd5?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80);
+    
+    margin-top: 0px;
+    height: 95vh;
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+    overflow: hidden;
+}
+
 
 /* CHILE */
-
 .chileIndex{
-    margin-top: 0px;
     background: url(https://images.unsplash.com/photo-1565551216281-9c01a43d9034?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=2689&q=80);
+    margin-top: 0px;
     height: 85vh;
     width: 100%;
     background-position: center;
     background-size: cover;
+    overflow: hidden;
 }
 
 /* FRANCE */
 
+.franceIndex{
+    background: url(https://images.unsplash.com/photo-1473951574080-01fe45ec8643?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1379&q=80);
+    margin-top: 0px;
+    height: 85vh;
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+    overflow: hidden;
+}
 
 /* ITALY */
 
+.italyIndex{
+    /* background: url(https://images.unsplash.com/photo-1509024644558-2f56ce76c490?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80); */
+    background: url(https://images.unsplash.com/photo-1607028693938-e63250910b2d?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1266&q=80);
+    margin-top: 0px;
+    height: 85vh;
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+    overflow: hidden;
+}
 
 /* MEXICO */
 
+.mexicoIndex{
+    background: url(https://images.unsplash.com/photo-1535159530326-d7bf54bfb24e?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1380&q=80);
+    margin-top: 0px;
+    height: 85vh;
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+    overflow: hidden;
+}
 
 /* SPAIN */
 
+.spainIndex{
+    background: url(https://images.unsplash.com/photo-1587789202069-f57c846b85db?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1351&q=80);
+    margin-top: 0px;
+    height: 85vh;
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+    overflow: hidden;
+}
 
 /* USA */
+.usaIndex{
+    background: url(https://images.unsplash.com/photo-1578318099746-8701bb066ceb?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1367&q=80);
+    margin-top: 0px;
+    height: 85vh;
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+    overflow: hidden;
+}

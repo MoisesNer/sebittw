@@ -24,7 +24,7 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
 
     <!-- NAV BAR -->
-    <nav class="navbar navbar-expand-lg navbar-dark bg-danger fixed top">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-danger fixed top" id="navbar">
         <a class="navbar-brand " href="#">SEBI ThroughTheWorld</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
@@ -36,7 +36,8 @@
               <a class="nav-link" href="/index.html">Home <span class="sr-only">(current)</span></a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Night Mode</a>
+              <a class="nav-link" id="darkMode">Dark Mode</a>
+              <a class="nav-link" id="lightMode">Light Mode</a>
             </li>
             <li class="nav-item dropdown">
               <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
@@ -49,29 +50,28 @@
                 <a class="dropdown-item" href="/subPages/italy.html">Italy</a>
                 <a class="dropdown-item" href="/subPages/mexico.html">Mexico</a>
                 <a class="dropdown-item" href="/subPages/spain.html">Spain</a>
-                <a class="dropdown-item" href="/subPages/usa.html">USA</a>
+                <a class="dropdown-item" href="/subPages/usa.html">USA</a> 
 
-                
                 <div class="dropdown-divider"></div>
                 <a class="dropdown-item" href="#">Next Journey coming...</a>
               </div>
             </li>
 
           </ul>
-          <form class="form-inline my-2 my-lg-0">
 
+          <!-- <form class="form-inline my-2 my-lg-0">
             <input type="email" placeholder="Email" class="form-control mr-sm-2">
             <input type="password" placeholder="Password" class="form-control mr-sm-2">
             <button class="btn btn-success btn-light" type="submit">Sign in</button>
-          </form>
+          </form> -->
         </div>
       </nav>
     
 <!-- HERO -->
       <div class="jumbotron">
-          <h1 class="display-3">WAWI</h1>
-          <p class="lead" id="quote">Va-monos.</p>
-          <small id="author">Sebastian Nervis</small>
+          <h1 class="jumbotronTitle">WAWI</h1>
+          <p class="jumboText" id="quote">Va-monos.</p>
+          <small class="jumboAuthor" id="author">Sebastian Nervis</small>
           <br>
           <br>
           <a href="#" class="btn btn-danger btn-bg" id="quote-btn">Tell me more</a>
@@ -96,6 +96,7 @@
         
     <!-- MAPINDEX -->
     <div class="mapIndex" id="mapIndex">
+      <img src="/Images/zero.png" alt="">
     </div>
 
     <!-- FOOTER -->
@@ -104,14 +105,14 @@
         <div class="footerLinks">
 
             <div class="row footerColumn">
-                <div class="col-3">
+                <div class="col">
                     <h3>Links</h3>
                     <p><a href="https://www.facebook.com/mossnrv" target="_blank"><i class="fab fa-facebook mr-3"></i> FACEBOOK</a></p>
                     <p><a href="#"><i class="fab fa-instagram-square mr-3" target="_blank"></i> INSTRAGRAM</a></p>
                     <p><a href="https://www.linkedin.com/in/moises-nervis123/" target="_blank "><i class="fab fa-linkedin mr-3"></i> LINKEDIN</a></p>
                 </div>
 
-                <div class="col-6">
+                <div class="col-3">
                     <h3>About</h3>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo reprehenderit id assumenda commodi nemo dolorem cupiditate vitae voluptate, tempora laboriosam ex corporis quas, inventore saepe expedita, ratione iste atque enim?</p>
                 </div>
