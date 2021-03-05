@@ -197,10 +197,7 @@ footer{
 
 /* SWIPPER */
 .sectionFour{
-    background: #fff;
-    font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
-    font-size: 14px;
-    color: #000;
+    /* color: #000; */
     /* display: flex;
     justify-content: center;
     align-items: center; */
@@ -211,24 +208,6 @@ footer{
 }
 .sectionFour h1{
     padding: 50px 0;
+    text-transform: uppercase;
 }
-.sectionFour{
-}
-.swiper-container {
-    width: 100%;
-    padding-top: 50px;
-    padding-bottom: 50px;
-    /* height: ; */
-  }
-
-  .swiper-slide {
-      background-position: center;
-      background-size: cover;
-      width: 350px;
-      height: 700px;
-      background: #000;
-    }
-    .swiper-slide img{
-        width: 700px;
-        height: auto;
-    }
+    
