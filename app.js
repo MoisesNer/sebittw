@@ -4,7 +4,7 @@ let author = document.getElementById('author');
 let quote = document.getElementById('quote')
 
 quoteBtn.addEventListener('click', function(){
-    fetch('http://quotable.io/random')
+    fetch('https://quotable.io/random')
     .then(res => res.json())
     .then(data => {
         quote.innerHTML = `"${data.content}"`;
