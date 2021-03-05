@@ -112,22 +112,18 @@ a{
 /* ----------------------- */
 footer{
     color: white;
-    padding-top: 150px;
+    padding-top: 50px;
     width: 100%;
     text-align: center;
     overflow: hidden;
-    /* display: none; */
 }
+
 .bottom{
     width: 100%;
     padding: 10px 0;
-    margin-top: 150px;
-
+    margin-top: 50px;
 }
-.bottom a{
 
-
-}
 .bottom span{
     color: rgb(86, 86, 86);
 }
@@ -150,21 +146,10 @@ footer{
     footer{
         padding-top: 75px;
     }
+      
+    
     .bottom{
         margin-top: 50px;
-    }
-    
-    .footerLinks .footerColumn .col-3 p{
-        font-size: small;
-    }
-
-    .footerLinks .footerColumn .col h3{
-        font-size: medium;
-       
-    }
-    .footerLinks .footerColumn .col p{
-        font-size: smaller;
-       
     }
 }
 
@@ -184,12 +169,13 @@ footer{
 
     /* FOOTER */
     footer{
-        padding-top: 50px;
+        /* padding-top: 40px; */
     }
+
     .bottom{
         margin-top: 35px;
     }
-    .footerLinks .footerColumn .col-3{
+    .footerLinks .footerColumn .col-6{
         display: none;
         background-color: aqua;
     }

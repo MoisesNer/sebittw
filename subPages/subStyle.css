@@ -30,7 +30,7 @@
     color: white;
     width: 60%;
     margin: auto;
-    padding-top: 15%;
+    padding-top: 150px;
     text-align: center;
     font-size: larger;
 }
@@ -60,19 +60,16 @@
     width: 100%;
     align-items: center;
     margin: auto;
-    /* display: none; */
 }
 
 .sectionThree img{
     width: 50%;
 }
 .sectionThree p{
-    padding: 0 200px;
+    width: 50%;
+    padding: 0 100px;
     font-size: larger;
-    /* text-align: center; */
-
 }
-
 
 .sectionFive{
     display: flex;
@@ -93,10 +90,10 @@
     }
 
     .sectionThree p{
-        padding: 0 20px;
+        padding: 0 50px;
         font-size: larger;
         text-align: center;
-        width: 25%;
+        width: 50%;
         margin: auto;
         font-size: medium;
     }
@@ -113,6 +110,18 @@
     .textHero{
         font-size: smaller;
     }
+
+    .textOne{
+        width: 80%;
+    }
+
+    .sectionThree p{
+        font-size: smaller;
+        padding: 0;
+        margin: auto;
+        width: 40%;
+    }
+
     .aboutH1{
         font-size: 1rem;
         
