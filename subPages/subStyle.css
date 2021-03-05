@@ -109,4 +109,26 @@
         /* position: static;
         text-align: center; */
     }
+
+    .textHero{
+        font-size: smaller;
+    }
+    .aboutH1{
+        font-size: 1rem;
+        
+    }
+}
+
+/* ABOUT */
+.darkMode{
+    background-color: black;
+    color: white;
+}
+
+.aboutH1{
+
+}
+
+.aboutText{
+    padding:10px 50px;
 }
