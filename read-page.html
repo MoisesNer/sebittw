@@ -7,13 +7,16 @@
 
 
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+    
+    <!-- SWIPER -->
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="/swipper.css">
 
     <title>SEBI Through the World</title>
   </head>
   <body>
-    <nav class="navbar navbar-light bg-light fixed-top" id="navbar-example">
+    <!-- <nav class="navbar navbar-light bg-light fixed-top" id="navbar-example">
       <a class="navbar-brand" href="#">Navbar</a>
-
       <ul class="nav nav-pills">
         <li class="nav-item">
           <a class="nav-link" href="#one">One</a>
@@ -28,15 +31,41 @@
           <a class="nav-link" href="#four">Four</a>
         </li>
       </ul>
-    </nav>
+    </nav> -->
 
-    <div 
-      class="container pt-5"
-      data-spy="scroll"
-      data-target="navbar-example"
-      data-offset="0"
-      >
+       <!-- Swiper -->
+  <div class="swiper-container">
+    <div class="swiper-wrapper">
+      <div class="swiper-slide"><img src="/images/specialsCut/special1.png" alt=""></div>
+      <div class="swiper-slide"><img src="/images/specialsCut/special2.png" alt=""></div>
+      <div class="swiper-slide"><img src="/images/specialsCut/special3.png" alt=""></div>
+      <div class="swiper-slide"><img src="/images/specialsCut/special4.png" alt=""></div>
+      <div class="swiper-slide"><img src="/images/specialsCut/special5.png" alt=""></div>
+      <div class="swiper-slide"><img src="/images/specialsCut/special6.png" alt=""></div>
+      <div class="swiper-slide"><img src="/images/specialsCut/special7.png" alt=""></div>
+      <div class="swiper-slide"><img src="/images/specialsCut/special8.png" alt=""></div>
+      <div class="swiper-slide"><img src="/images/specialsCut/special9.png" alt=""></div>
+      <div class="swiper-slide"><img src="/images/specialsCut/special10.png" alt=""></div>
+      <div class="swiper-slide"><img src="/images/specialsCut/special12.png" alt=""></div>
+      <div class="swiper-slide"><img src="/images/specialsCut/special13.png" alt=""></div>
+      <div class="swiper-slide"><img src="/images/specialsCut/special14.png" alt=""></div>
+      <div class="swiper-slide"><img src="/images/specialsCut/special15.png" alt=""></div>
+      <div class="swiper-slide"><img src="/images/specialsCut/special16.png" alt=""></div>
+      <div class="swiper-slide"><img src="/images/specialsCut/special17.png" alt=""></div>
+      <div class="swiper-slide"><img src="/images/specialsCut/special18.png" alt=""></div>
+      <div class="swiper-slide"><img src="/images/specialsCut/special19.png" alt=""></div>
+    </div>
+  </div>
     
+    
+    <!-- <div
+    class="container pt-5"
+    data-spy="scroll"
+    data-target="navbar-example"
+    data-offset="0"
+    >
+    
+    <br>
       <h2 id="one">Section 1</h2>
       <div>
         Lorem ipsum dolor sit amet consectetur adipisicing elit. In, et. Quam, quo ullam assumenda rem suscipit repellendus sequi ipsum numquam debitis cupiditate? Voluptate porro expedita perspiciatis asperiores iure quidem impedit.
@@ -133,7 +162,7 @@
         Laboriosam praesentium blanditiis rerum architecto nihil officia, fugit libero, temporibus inventore a id, dicta exercitationem sed harum! Id, ipsum libero. Maiores nobis perferendis quibusdam, numquam obcaecati id beatae consectetur commodi!
       </div>
     
-    </div>
+    </div> -->
 
 
 
@@ -153,6 +182,32 @@
 
     <script>
       $('body').scrollspy({ target: '#navbar-example'})
+    </script>
+
+    <!-- SWIPER -->
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <script>
+      var swiper = new Swiper('.swiper-container', {
+        effect: 'coverflow',
+        grabCursor: true,
+        centeredSlides: true,
+        slidesPerView: 'auto',
+        coverflowEffect: {
+          rotate: 20,
+          stretch: 0,
+          depth: 200,
+          modifier: 1,
+          slideShadows: true,
+        },
+        loop:true,
+        autoplay: {
+          delay: 1500,
+          disableOnInteraction: false,
+        }
+        // pagination: {
+        //   el: '.swiper-pagination',
+        // },
+      });
     </script>
 
 
